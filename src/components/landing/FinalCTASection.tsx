@@ -18,7 +18,7 @@ const FinalCTASection = () => {
 
           <div className="flex flex-col items-center gap-6">
             <Button variant="hero" size="xl" className="group" asChild>
-              <a href="#comprar">
+              <a href="https://pay.kiwify.com.br/62ULbPN">
                 QUERO MINHA APROVAÇÃO NO DETRAN
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </a>

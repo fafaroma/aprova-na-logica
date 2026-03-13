@@ -29,7 +29,6 @@ const ContentSection = () => {
             Linguagem simples, exemplos práticos, regras de ouro e foco total em aprovação.
           </p>
 
-          {/* Content grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
             {contents.map((content, index) => (
               <div 
@@ -42,13 +41,12 @@ const ContentSection = () => {
             ))}
           </div>
 
-          {/* What you receive */}
           <div className="bg-gradient-dark rounded-2xl p-8 text-accent-foreground">
             <h3 className="font-display text-2xl mb-6">O que você recebe:</h3>
             <div className="grid sm:grid-cols-2 gap-4 text-left max-w-2xl mx-auto">
               <div className="flex items-center gap-3">
                 <CheckCircle2 className="w-5 h-5 text-traffic-yellow flex-shrink-0" />
-                <span>E-book Método Aprova DETRAN (PDF)</span>
+                <span>E-book Método Aprova CNH (PDF)</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle2 className="w-5 h-5 text-traffic-yellow flex-shrink-0" />

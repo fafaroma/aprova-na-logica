@@ -1,5 +1,5 @@
-import { CheckCircle2, BookOpen, Target, Brain, Shield } from "lucide-react";
-import ebookMockup from "@/assets/ebook-mockup.png";
+import { BookOpen, Target, Brain, Shield } from "lucide-react";
+import ebookCover from "@/assets/ebook-cover.png";
 
 const ProductSection = () => {
   const features = [
@@ -13,19 +13,17 @@ const ProductSection = () => {
     <section className="py-20 bg-muted" id="produto">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* E-book image */}
           <div className="order-2 lg:order-1 flex justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-traffic-green/30 blur-[60px] rounded-full" />
               <img 
-                src={ebookMockup} 
-                alt="E-book Método Aprova Detran" 
-                className="relative z-10 w-full max-w-sm drop-shadow-2xl animate-float"
+                src={ebookCover} 
+                alt="E-book Método Aprova CNH" 
+                className="relative z-10 w-full max-w-sm drop-shadow-2xl animate-float rounded-2xl"
               />
             </div>
           </div>
 
-          {/* Content */}
           <div className="order-1 lg:order-2">
             <span className="inline-block px-4 py-2 rounded-full bg-traffic-green/10 text-traffic-green-dark text-sm font-semibold mb-6">
               📚 Conheça o Método
@@ -33,7 +31,7 @@ const ProductSection = () => {
 
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-foreground mb-6">
               O que é o{" "}
-              <span className="text-gradient-primary">Método Aprova DETRAN</span>?
+              <span className="text-gradient-primary">Método Aprova CNH</span>?
             </h2>
 
             <p className="text-lg text-muted-foreground mb-8">
@@ -54,7 +52,6 @@ const ProductSection = () => {
               ))}
             </div>
 
-            {/* Key message */}
             <div className="bg-traffic-dark text-accent-foreground p-6 rounded-2xl border-l-4 border-traffic-yellow">
               <p className="text-lg italic">
                 "Aqui você não decora artigos. Você aprende a tomar a decisão que a banca espera."
