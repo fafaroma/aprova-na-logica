@@ -53,10 +53,10 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <Button variant="hero" size="xl" className="w-full mb-6 group" asChild>
+              <Button variant="hero" size="xl" className="w-full mb-6 group text-sm sm:text-xl whitespace-normal h-auto py-3 sm:py-4 px-5 sm:px-10" asChild>
                 <a href="https://pay.kiwify.com.br/62ULbPN">
                   QUERO PASSAR NO EXAME TEÓRICO
-                  <ArrowRight className="group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="group-hover:translate-x-1 transition-transform flex-shrink-0" />
                 </a>
               </Button>
 

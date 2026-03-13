@@ -25,27 +25,27 @@ const HeroSection = () => {
       <div className="absolute top-20 left-10 w-20 h-20 rounded-full bg-traffic-yellow/20 blur-3xl" />
       <div className="absolute bottom-20 right-10 w-32 h-32 rounded-full bg-traffic-green/20 blur-3xl" />
 
-      <div className="container relative z-10 py-20 lg:py-0">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container relative z-10 py-12 px-5 sm:px-6 lg:py-0">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="text-center lg:text-left animate-slide-up">
-            <span className="inline-block px-4 py-2 rounded-full bg-traffic-yellow/20 text-traffic-yellow text-sm font-semibold mb-6 border border-traffic-yellow/30">
+            <span className="inline-block px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-traffic-yellow/20 text-traffic-yellow text-xs sm:text-sm font-semibold mb-4 sm:mb-6 border border-traffic-yellow/30">
               🚗 Método Comprovado de Aprovação
             </span>
             
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-accent-foreground leading-tight mb-6">
+            <h1 className="font-display text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-accent-foreground leading-tight mb-4 sm:mb-6">
               Passe no exame teórico do Detran{" "}
               <span className="text-gradient-primary">sem decorar leis chatas</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-accent-foreground/80 mb-8 max-w-xl mx-auto lg:mx-0">
+            <p className="text-base sm:text-xl md:text-2xl text-accent-foreground/80 mb-6 sm:mb-8 max-w-xl mx-auto lg:mx-0">
               O guia prático que ensina você a pensar como a banca e acertar as questões com segurança
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <Button variant="hero" size="xl" className="group" asChild>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-6 sm:mb-8">
+              <Button variant="hero" size="xl" className="group w-full sm:w-auto text-sm sm:text-xl whitespace-normal h-auto py-3 sm:py-4 px-5 sm:px-10" asChild>
                 <a href="https://pay.kiwify.com.br/62ULbPN">
                   QUERO MINHA APROVAÇÃO NO DETRAN
-                  <ArrowRight className="group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="group-hover:translate-x-1 transition-transform flex-shrink-0" />
                 </a>
               </Button>
             </div>
