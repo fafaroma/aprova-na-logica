@@ -34,7 +34,7 @@ const PricingSection = () => {
 
               <div className="mb-8 pt-4">
                 <p className="text-muted-foreground line-through text-xl mb-2">
-                  De R$ 97,90
+                  De R$ 97,90 por
                 </p>
                 <p className="text-lg text-muted-foreground mb-1">6x de</p>
                 <div className="flex items-baseline justify-center gap-2">
