@@ -36,12 +36,13 @@ const PricingSection = () => {
                 <p className="text-muted-foreground line-through text-xl mb-2">
                   Evite reprovar e gastar mais
                 </p>
+                <p className="text-lg text-muted-foreground mb-1">6x de</p>
                 <div className="flex items-baseline justify-center gap-2">
                   <span className="text-2xl text-muted-foreground">R$</span>
-                  <span className="font-display text-7xl md:text-8xl text-traffic-green">39</span>
-                  <span className="text-2xl text-muted-foreground">,90</span>
+                  <span className="font-display text-7xl md:text-8xl text-traffic-green">7</span>
+                  <span className="text-2xl text-muted-foreground">,49</span>
                 </div>
-                <p className="text-muted-foreground mt-2">pagamento único</p>
+                <p className="text-muted-foreground mt-2">ou R$ 39,90 à vista</p>
               </div>
 
               <div className="grid grid-cols-2 gap-4 mb-8">
